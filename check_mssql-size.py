@@ -46,7 +46,6 @@ try:
 except pymssql.Error as e:
     print(f"Error connecting to SQL Server: {e}")
 finally:
-    # Close the connection
     if conn:
         conn.close()
 
