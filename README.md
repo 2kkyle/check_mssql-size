@@ -3,13 +3,13 @@ A Monitoring Plugin for Checking MSSQL Database Size
 
 ```markdown
 ./check_mssql_database_size.py -h
-usage: check_mssql_database_size.py [-h] -H HOSTNAME -d DATABASE -u USER -p PASSWORD
+usage: check_mssql_database_size.py [-h] -s SERVER -d DATABASE -u USER -p PASSWORD
 
 Connect to MSSQL and execute 'sp_spaceused'.
 
 options:
   -h, --help            show this help message and exit
-  -H HOSTNAME, --hostname HOSTNAME
+  -s SERVER, --server SERVER
                         The SQL Server address (e.g., 'localhost' or 'server-name')
   -d DATABASE, --database DATABASE
                         The database name to connect to
