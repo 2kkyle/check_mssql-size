@@ -2,7 +2,7 @@
 A Monitoring Plugin for Checking MSSQL Database Size
 
 ```markdown
-usage: check_mssql_database_size.py [-h] -s SERVER -d DATABASE -u USER -p PASSWORD
+usage: check_mssql-size.py [-h] -s SERVER -d DATABASE -u USER -p PASSWORD
 
 Connect to MSSQL and execute 'sp_spaceused'.
 
